@@ -22,6 +22,24 @@ live_loop :arp3 do
 end
 
 live_loop :boomboom do
-  sample :drum_heavy_kick, amp: 10
+  sample :drum_heavy_kick, amp: 20
   sleep 0.5
 end
+
+live_loop :bimbim do
+  sleep 0.5
+  sample :drum_snare_hard, amp: 20
+  sleep 0.5
+end
+
+live_loop :tchiktchik do
+  sleep 0.25
+  sample :drum_cymbal_pedal, amp: 20
+  sleep 0.25
+end
+
+live_loop :badaboom do
+  sample :drum_cymbal_hard, amp: 20
+  sleep 4
+end
+
